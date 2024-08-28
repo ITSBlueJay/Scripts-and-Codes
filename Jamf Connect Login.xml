@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowNetworkSelection</key>
+			<true/>
+			<key>CreateJamfConnectPassword</key>
+			<false/>
+			<key>CreateNewUserHide</key>
+			<true/>
+			<key>DenyLocal</key>
+			<true/>
+			<key>EnableFDE</key>
+			<true/>
+			<key>EnableFDERecoveryKey</key>
+			<false/>
+			<key>HelpURL</key>
+			<string>https://github.com/ITSBlueJay/Scripts-and-Codes.git</string>
+			<key>LocalFallback</key>
+			<true/>
+			<key>LoginWindowMessage</key>
+			<string>Welcome BlueJay!</string>
+			<key>Migrate</key>
+			<true/>
+			<key>OIDCAdmin</key>
+			<array>
+				<string>Administrator</string>
+			</array>
+			<key>OIDCAdminAttribute</key>
+			<string>roles</string>
+			<key>OIDCClientID</key>
+			<string>Tenant ID goes Here</string>
+			<key>OIDCProvider</key>
+			<string>EntraID</string>
+			<key>OIDCROPGID</key>
+			<string>Tenant ID goes here</string>
+			<key>OIDCRedirectURI</key>
+			<string>https://127.0.0.1/jamfconnect</string>
+			<key>OIDCTenant</key>
+			<string>Tenant ID goes here</string>
+			<key>OIDCUsePassthroughAuth</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>Jamf Connect Settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Jamf Connect Login</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>Insert Payload ID here</string>
+			<key>PayloadOrganization</key>
+			<string>ItsBlueJay</string>
+			<key>PayloadType</key>
+			<string>com.jamf.connect.login</string>
+			<key>PayloadUUID</key>
+			<string>Insert PayloadUUID here</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ROPGProvider</key>
+			<string>EntraID</string>
+			<key>ROPGTenant</key>
+			<string>Insert Tenant ID here</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Jamf Connect Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Jamf Connect Login</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>Payload ID goes here</string>
+	<key>PayloadOrganization</key>
+	<string>ItsBlueJay</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>Payload UUID goes here</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
