@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Script to initiate device sync with Microsoft Intune for macOS
+# Script to sync Mac device with Microsoft Intune
 
-# Set the path to the Company Portal app (adjust if installed elsewhere)
+# Set the path to the Company Portal app (may need to adjust if installed elsewhere)
 COMPANY_PORTAL="/Applications/Company Portal.app"
 
 # Ensure the Company Portal app is installed
